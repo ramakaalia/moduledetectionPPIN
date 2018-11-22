@@ -1,0 +1,12 @@
+The following datasets are prepared from STRING version 10 and HPRD version Release9
+
+1) Physical PPIN: 
+Direct or physical interactions between proteins.
+HPRD is a manually curated database containing reliable protein-protein interactions. STRING database combines various experiments (experiments, co-expression, co-occurrence etc) and gives scores for interactions, which represents the source and strength of the evidence of interaction. For the present study, we included all the interactions from HPRD. The interactions only having action ‘binding’ from species ‘Homo sapiens’ from STRING were included in the analysis. Further, physical PPIN from STRING includes interactions with experimental evidence, i.e., experiments score >0 
+
+2)Functional PPIN: 
+Functional or expression based interactions between proteins.
+Functional interactions were derived from STRING, with interactions with experimental evidence, i.e., coexpression_transferred score >0). Since it is important to have PPI inclusive of all (weak and strong) experimental evidences for the purpose of this study, we have selected all the interactions with non-zero scores mentioned in functional and physical interactions.
+
+3) Combined PPIN:
+Interactions combined from physical and functional PPIN.
